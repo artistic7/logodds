@@ -197,6 +197,13 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
     $SS = array_intersect($_WIN, $qinValues);
     sort($SS);
     if(!in_my_array($SS, $SS_)) $SS_[] = $SS;
+
+    $iSS = [];
+    for($i = 0; $i < count($SS_); $i ++){
+        for($j = $i + 1; $j < count($SS_); $j ++){
+            $iSS = array_values(array_unique(array_merge($iSS, array_intersect($SS_[$i], $SS_[$j]))));
+        }
+    }
     
     $WINSText = "[";
     $someCounter = 0;
@@ -244,6 +251,7 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
     $racetext .= "\t\t'qin' =>  '" . $qin . "',\n";
     $racetext .= "\t\t'S' =>  '" . implode(", ", $SS). "',\n";
     $racetext .= "\t\t'SS' =>  $SSText ,\n";
+    if(!empty($iSS)) $racetext .= "\t\t'I' =>  '" . implode(", ", $iSS). "',\n";
     $racetext .= "\t],\n";
     unset($qin);
     unset($qinValues);
