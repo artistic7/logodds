@@ -210,7 +210,7 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
         $iX = array_intersect($SS_[0], $SS_[1]);
         for($i = 0; $i < count($SS_); $i ++){
             for($j = $i + 1; $j < count($SS_); $j ++){
-                $iX = array_intersect($iSS, array_intersect($SS_[$i], $SS_[$j]));
+                $iX = array_intersect($iX, array_intersect($SS_[$i], $SS_[$j]));
             }
         }
     }
