@@ -204,6 +204,7 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
             $iSS = array_values(array_unique(array_merge($iSS, array_intersect($SS_[$i], $SS_[$j]))));
         }
     }
+    sort($iSS);
     
     $WINSText = "[";
     $someCounter = 0;
