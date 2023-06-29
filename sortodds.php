@@ -262,8 +262,8 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
     //$racetext .= "\t\t'qin' =>  '" . $qin . "',\n";
     $racetext .= "\t\t'S' =>  '" . implode(", ", $SS). "',\n";
     $racetext .= "\t\t'SS' =>  $SSText ,\n";
-    if(!empty($iSS)) $racetext .= "\t\t'I' =>  '" . implode(", ", $iSS). "',\n";
-    if(!empty($iX)) $racetext .= "\t\t'X' =>  '" . implode(", ", $iX). "',\n";
+    if(!empty($iSS)) $racetext .= "\t\t'win bet?' =>  '" . implode(", ", array_diff($_WIN, $iSS)). "',\n";
+    if(!empty($iX)) $racetext .= "\t\t'pla bet?' =>  '" . implode(", ", array_diff($_WIN, $iX)). "',\n";
     $racetext .= "\t],\n";
     unset($qin);
     unset($qinValues);
