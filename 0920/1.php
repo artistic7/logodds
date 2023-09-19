@@ -9,8 +9,8 @@ return [
 		'qpl/trio' =>  [[8, 6, 4, 1, 5]] ,
 		'inters' =>  [[8, 6, 4, 1]] ,
 		'Favorite' =>  '8',
-		'Red QPL values'      =>  '1, 5',
-		'Black QPL values'    =>  '8, 6, 4',
+		'Red QPL values'      =>  '5, 1',
+		'Black QPL values'    =>  '8, 4, 6',
 		'Inter QPL' =>  '8, 6, 4, 1, 5',
 	],
 	'4' => [
@@ -18,12 +18,12 @@ return [
 		Race 4
 		*/
 		'wins' =>  [[1, 12], [9, 1]] ,
-		'qpl/trio' =>  [[9, 11, 2, 1, 12]] ,
-		'inters' =>  [[9, 11, 2], [12, 11, 2]] ,
+		'qpl/trio' =>  [[9, 11, 2, 1, 12], [7, 11, 2, 9, 1]] ,
+		'inters' =>  [[9, 11, 2], [12, 11, 2], [7, 11, 2]] ,
 		'Favorite' =>  '9',
-		'Red QPL values'      =>  '9, 1, 12',
+		'Red QPL values'      =>  '9, 1, 12, 7',
 		'Black QPL values'    =>  '11, 2',
-		'Inter QPL' =>  '9, 11, 2, 1, 12',
+		'Inter QPL' =>  '9, 11, 2, 1',
 	],
 	'5' => [
 		/**
@@ -53,12 +53,12 @@ return [
 		/**
 		Race 7
 		*/
-		'wins' =>  [] ,
-		'qpl/trio' =>  [[2, 8, 10, 7, 3], [2, 8, 4, 7, 1]] ,
-		'inters' =>  [[2, 8, 10, 7, 3], [2, 8, 4, 7, 1]] ,
+		'wins' =>  [[7]] ,
+		'qpl/trio' =>  [[2, 8, 10, 7, 3], [2, 8, 4, 7, 1], [2, 8, 6, 1, 7]] ,
+		'inters' =>  [[2, 8, 10, 7, 3], [2, 8, 4, 7, 1], [2, 8, 6, 1]] ,
 		'Favorite' =>  '2',
 		'Red QPL values'      =>  '7, 1, 3',
-		'Black QPL values'    =>  '2, 8, 4, 10',
+		'Black QPL values'    =>  '2, 8, 6, 4, 10',
 		'Inter QPL' =>  '2, 8, 7',
 	],
 	'8' => [
