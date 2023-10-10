@@ -12,11 +12,11 @@ return [
 		'Sure Place'    =>  '',
 		'All Wins values'    =>  '5, 4, 6',
 		'Place values'    =>  '7, 3',
-		'Red QPL values'      =>  '5, 7, 3',
+		'Red QPL values'      =>  '5, 3, 7',
 		'Black QPL values'    =>  '4, 6',
 		'Inter Inters' =>  '7, 3',
 		'Inter QPL' =>  '7, 3, 4, 5, 6',
-		'I' =>  '7, 3',
+		'I' =>  '3, 7',
 		'Bet' =>  '5',
 	],
 	'2' => [
