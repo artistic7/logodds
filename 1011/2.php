@@ -16,7 +16,7 @@ return [
 		'Black QPL values'    =>  '4, 6, 2, 8',
 		'Inter Inters' =>  '3',
 		'Inter QPL' =>  '3, 4, 5, 6',
-		'I' =>  '3, 6, 7',
+		'I' =>  '6, 3, 7',
 		'Bet' =>  '5',
 	],
 	'2' => [
