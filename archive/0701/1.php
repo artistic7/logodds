@@ -12,6 +12,8 @@ return [
 		'Red QPL values'      =>  '1, 3, 12, 9',
 		'Black QPL values'    =>  '10, 4, 2, 11',
 		'Inter QPL' =>  '1',
+		'Diff1' =>  '10, 9, 2, 4, 11',
+		'Diff2' =>  '1',
 	],
 	'2' => [
 		/**
@@ -28,6 +30,8 @@ return [
 		'Red QPL values'      =>  '7, 3, 5',
 		'Black QPL values'    =>  '4, 13, 2, 6, 11',
 		'Inter QPL' =>  '7, 4, 13',
+		'Diff1' =>  '5, 6',
+		'Diff2' =>  '4, 13',
 	],
 	'3' => [
 		/**
@@ -41,6 +45,8 @@ return [
 		'Red QPL values'      =>  '7, 1, 3, 5',
 		'Black QPL values'    =>  '13, 11, 6',
 		'Inter QPL' =>  '1, 7, 13',
+		'Diff1' =>  '11, 6',
+		'Diff2' =>  '1, 13',
 	],
 	'4' => [
 		/**
@@ -54,6 +60,8 @@ return [
 		'Red QPL values'      =>  '3, 7, 9, 1',
 		'Black QPL values'    =>  '13, 4, 2',
 		'Inter QPL' =>  '3, 7, 4, 13',
+		'Diff1' =>  '9',
+		'Diff2' =>  '3, 4, 13',
 	],
 	'5' => [
 		/**
@@ -66,6 +74,8 @@ return [
 		'Red QPL values'      =>  '1, 5, 7',
 		'Black QPL values'    =>  '6, 10, 4, 11',
 		'Inter QPL' =>  '1, 6',
+		'Diff1' =>  '5',
+		'Diff2' =>  '1',
 	],
 	'6' => [
 		/**
@@ -79,6 +89,8 @@ return [
 		'Red QPL values'      =>  '7, 14, 3, 1, 9',
 		'Black QPL values'    =>  '4, 13, 2',
 		'Inter QPL' =>  '7, 4',
+		'Diff1' =>  '14, 2',
+		'Diff2' =>  '7, 4',
 	],
 	'7' => [
 		/**
@@ -92,6 +104,8 @@ return [
 		'Red QPL values'      =>  '7, 5, 1',
 		'Black QPL values'    =>  '4, 2, 8, 6, 10',
 		'Inter QPL' =>  '7, 2, 4',
+		'Diff1' =>  '5',
+		'Diff2' =>  '2, 4',
 	],
 	'8' => [
 		/**
@@ -104,6 +118,8 @@ return [
 		'Red QPL values'      =>  '3, 5, 1',
 		'Black QPL values'    =>  '6, 2, 10, 8',
 		'Inter QPL' =>  '6',
+		'Diff1' =>  '2, 10, 5',
+		'Diff2' =>  '',
 	],
 	'9' => [
 		/**
@@ -117,6 +133,8 @@ return [
 		'Red QPL values'      =>  '7, 12, 3',
 		'Black QPL values'    =>  '2, 6, 11',
 		'Inter QPL' =>  '7, 12, 2, 6',
+		'Diff1' =>  '11',
+		'Diff2' =>  '12, 6',
 	],
 	'10' => [
 		/**
@@ -130,5 +148,7 @@ return [
 		'Red QPL values'      =>  '5, 7, 3',
 		'Black QPL values'    =>  '8, 6, 13, 4',
 		'Inter QPL' =>  '5, 6, 8',
+		'Diff1' =>  '7',
+		'Diff2' =>  '8',
 	],
 ];
